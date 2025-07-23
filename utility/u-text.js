@@ -1,0 +1,1 @@
+export const absCenter = " absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2";

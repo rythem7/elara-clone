@@ -1,8 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Elara Clone
 
-## Getting Started
+This is a style-based reimplementation of 'Elara' built from scratch using React and Tailwind. The goal was to sharpen my layout skills and styling.
 
-First, run the development server:
+A modern, animated website clone built with Next.js 15, featuring smooth scrolling animations and responsive design.
+
+## ✨ Features
+
+-   **Smooth Scrolling**: Implemented with Lenis for buttery-smooth scroll experience
+-   **Fluid Animations**: Powered by Framer Motion for engaging transitions and effects
+-   **Modern Design**: Styled with Tailwind CSS and DaisyUI components
+-   **Responsive Layout**: Mobile-first design that works across all devices
+-   **Performance Optimized**: Built with Next.js 15 and Turbopack for fast development
+
+## 🛠️ Tech Stack
+
+-   **Framework**: [Next.js 15](https://nextjs.org) with React 19
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com) + [DaisyUI](https://daisyui.com)
+-   **Animations**: [Framer Motion](https://www.framer.com/motion/)
+-   **Smooth Scrolling**: [Lenis](https://lenis.darkroom.engineering/)
+-   **Development**: Turbopack for fast builds
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+-   Node.js 18+
+-   npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+cd elara-clone
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +58,58 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+elara-clone/
+├── app/                    # Next.js app directory
+│   ├── layout.js          # Root layout
+│   ├── page.js            # Home page
+│   └── globals.css        # Global styles
+├── components/            # React components
+│   ├── header/           # Header section components
+│   ├── navbar/           # Navigation components
+│   ├── section2-5/       # Page sections
+│   └── spinner/          # Loading components
+├── assets/               # Static assets (images)
+├── hooks/                # Custom React hooks
+├── ui/                   # UI utility components
+└── utility/              # Helper functions
+```
 
-## Learn More
+## 🎨 Components Overview
 
-To learn more about Next.js, take a look at the following resources:
+-   **Header**: Animated hero section with scroll-triggered effects
+-   **Sections 2-5**: Content sections with unique animations and layouts
+-   **Navbar**: Navigation component with smooth transitions
+-   **Spinner**: Loading animation component
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📱 Responsive Design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The application is built with a mobile-first approach and includes:
 
-## Deploy on Vercel
+-   Responsive breakpoints for all screen sizes
+-   Touch-friendly interactions
+-   Optimized images and assets
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔧 Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-   `npm run dev` - Start development server with Turbopack
+-   `npm run build` - Build for production
+-   `npm run start` - Start production server
+-   `npm run lint` - Run ESLint
+
+## 🌐 Deploy on Vercel
+
+The easiest way to deploy this Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 📚 Learn More
+
+-   [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API
+-   [Framer Motion](https://www.framer.com/motion/) - Animation library documentation
+-   [Lenis](https://lenis.darkroom.engineering/) - Smooth scrolling library
+-   [Tailwind CSS](https://tailwindcss.com/docs) - Utility-first CSS framework
